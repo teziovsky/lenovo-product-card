@@ -7,8 +7,6 @@ $primary-text-colour: #000000;
 $secondary-text-colour: #ffffff;
 $caption-text-colour: #979797;
 $background-text-colour: #408ddc;
-$body-width: 1920px;
-$body-font-size: 10px;
 
 *,
 *::before,
@@ -19,8 +17,8 @@ $body-font-size: 10px;
 }
 
 body {
-  width: $body-width;
-  font-size: $body-font-size;
+  width: 1920px;
+  font-size: 10px;
 }
 
 .header {
@@ -62,7 +60,7 @@ body {
     &--subtitle {
       font-size: 3.6em;
       line-height: 1.5em;
-      margin-bottom: 45px;
+      margin-bottom: 30px;
       letter-spacing: 4px;
     }
     &--description {
@@ -104,7 +102,7 @@ body {
   }
 
   &__img {
-    width: calc($body-width - 68.75%);
+    width: calc(1920 - 68.75%);
     height: auto;
     align-items: center;
     margin: 66px auto 50px;
@@ -142,7 +140,6 @@ body {
     }
 
     & small {
-      // color: $caption-text-colour;
       display: block;
       margin: 5px 0;
       font-size: 0.8em;
@@ -191,6 +188,10 @@ body {
   .article {
     &__img {
       width: 990px;
+    }
+
+    &__description {
+      font-size: 2.1em;
     }
   }
 }
