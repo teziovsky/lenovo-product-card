@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 @font-face {
   font-family: Gotham;
   src: url(../fonts/Gotham_Book.otf);
@@ -8,6 +7,8 @@ $primary-text-colour: #000000;
 $secondary-text-colour: #ffffff;
 $caption-text-colour: #979797;
 $background-text-colour: #408ddc;
+$body-width: 1920px;
+$body-font-size: 10px;
 
 *,
 *::before,
@@ -17,25 +18,21 @@ $background-text-colour: #408ddc;
   box-sizing: border-box;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
 body {
-  max-width: 1920px;
-  width: 1920px;
-  font-size: 10px;
+  width: $body-width;
+  font-size: $body-font-size;
 }
 
 .header {
   background-color: $background-text-colour;
-  max-width: 1920px;
   height: 796px;
   position: relative;
   color: $secondary-text-colour;
 
   &__logo {
     position: absolute;
+    width: 80px;
+    height: 240px;
     top: 0;
     left: 0;
   }
@@ -43,6 +40,7 @@ body {
   &__wrapper {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -75,6 +73,8 @@ body {
   }
 
   &__img {
+    width: 689px;
+    height: 510px;
   }
 }
 
@@ -104,6 +104,8 @@ body {
   }
 
   &__img {
+    width: calc($body-width - 68.75%);
+    height: auto;
     align-items: center;
     margin: 66px auto 50px;
 
@@ -143,14 +145,14 @@ body {
       // color: $caption-text-colour;
       display: block;
       margin: 5px 0;
-      font-size: 0.6em;
+      font-size: 0.8em;
     }
   }
 
   .caption {
     margin-top: 20px;
     text-align: right;
-    font-size: 1.5em;
+    font-size: 2em;
     color: $caption-text-colour;
   }
 
@@ -158,5 +160,101 @@ body {
     margin-left: 20px;
     font-size: 2em;
     line-height: 1.5em;
+  }
+}
+
+@media all and (max-width: 1440px) {
+  body {
+    width: 1440px;
+    max-width: 100%;
+    font-size: 7.5px;
+  }
+
+  .header {
+    height: 597px;
+
+    &__logo {
+      width: 60px;
+      height: 180px;
+    }
+
+    &__info {
+      width: 439px;
+    }
+
+    &__img {
+      width: 517px;
+      height: auto;
+    }
+  }
+
+  .article {
+    &__img {
+      width: 990px;
+    }
+  }
+}
+
+@media all and (max-width: 1280px) {
+  body {
+    width: 1280px;
+    max-width: 100%;
+    font-size: 6.7px;
+  }
+
+  .header {
+    height: 530px;
+
+    &__logo {
+      width: 53px;
+      height: 160px;
+    }
+
+    &__info {
+      width: 390px;
+    }
+
+    &__img {
+      width: 459px;
+      height: auto;
+    }
+  }
+
+  .article {
+    &__img {
+      width: 880px;
+    }
+  }
+}
+
+@media all and (max-width: 1024px) {
+  body {
+    width: 1024px;
+    max-width: 100%;
+    font-size: 5.3px;
+  }
+
+  .header {
+    height: 429px;
+
+    &__logo {
+      width: 42.5px;
+      height: 127px;
+    }
+
+    &__info {
+      width: 310px;
+    }
+
+    &__img {
+      width: 365px;
+      height: auto;
+    }
+  }
+
+  .article {
+    &__img {
+      width: 704px;
+    }
   }
 }
