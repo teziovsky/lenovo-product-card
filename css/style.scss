@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 @font-face {
   font-family: Gotham;
-  src: url(../fonts/Gotham_Book_Regular.otf);
+  src: url(../fonts/Gotham_Book.otf);
 }
+
+$primary-text-colour: #000000;
+$secondary-text-colour: #ffffff;
+$caption-text-colour: #979797;
+$background-text-colour: #408ddc;
 
 *,
 *::before,
@@ -12,9 +17,9 @@
   box-sizing: border-box;
 }
 
-// ::-webkit-scrollbar {
-//   display: none;
-// }
+::-webkit-scrollbar {
+  display: none;
+}
 
 body {
   max-width: 1920px;
@@ -23,11 +28,11 @@ body {
 }
 
 .header {
-  background-color: #408ddc;
+  background-color: $background-text-colour;
   max-width: 1920px;
   height: 796px;
   position: relative;
-  color: #ffffff;
+  color: $secondary-text-colour;
 
   &__logo {
     position: absolute;
@@ -53,16 +58,19 @@ body {
     &--title {
       font-size: 5em;
       line-height: 1.12em;
+      letter-spacing: 2px;
     }
 
     &--subtitle {
       font-size: 3.6em;
       line-height: 1.5em;
-      margin-bottom: 40px;
+      margin-bottom: 45px;
+      letter-spacing: 4px;
     }
     &--description {
       font-size: 1.6em;
       line-height: 1.625em;
+      letter-spacing: 0.5px;
     }
   }
 
@@ -113,14 +121,42 @@ body {
   }
 
   &__link {
-    color: #6699ff;
+    color: $background-text-colour;
+  }
+
+  &__table {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    font-size: 2em;
+
+    &__item {
+      padding: 10px 4px;
+      border-bottom: 1px solid rgba($color: $caption-text-colour, $alpha: 0.5);
+
+      &:nth-last-child(1),
+      &:nth-last-child(2) {
+        border-bottom: none;
+      }
+    }
+
+    & small {
+      // color: $caption-text-colour;
+      display: block;
+      margin: 5px 0;
+      font-size: 0.6em;
+    }
+  }
+
+  .caption {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 1.5em;
+    color: $caption-text-colour;
   }
 
   &__caption {
+    margin-left: 20px;
     font-size: 2em;
     line-height: 1.5em;
-
-    &--item {
-    }
   }
 }
