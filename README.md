@@ -8,8 +8,6 @@
 
 > The product card website created for the needs of recruitment to Junior Frontend Developer.
 
-### 🏠 [Homepage](https://teziovsky.github.io/product_card/)
-
 ### ✨ [Demo](https://teziovsky.github.io/product_card/)
 
 ## Author
