@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@font-face {
+  font-family: Gotham;
+  src: url(../fonts/Gotham_Book_Regular.otf);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  width: 1920px;
+  font-size: 10px;
+}
+
+.header {
+  background-color: #408ddc;
+  max-width: 1920px;
+  height: 796px;
+  position: relative;
+  color: #ffffff;
+}
+
+.header__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.header__info {
+  font-family: Gotham;
+  font-weight: 300;
+  width: 585px;
+  margin-right: 35px;
+}
+
+.header__info--title {
+  font-size: 5em;
+  line-height: 1.12em;
+}
+
+.header__info--subtitle {
+  font-size: 3.6em;
+  line-height: 1.5em;
+  margin-bottom: 40px;
+}
+
+.header__info--description {
+  font-size: 1.6em;
+  line-height: 1.625em;
+}
+
+.wrapper {
+  max-width: 68.75%;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 125px;
+}
+
+.article__subtitle {
+  font-size: 5em;
+  margin: 40px 0 20px;
+  font-weight: 300;
+}
+
+.article__description {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.article__img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 66px auto 50px;
+}
+
+.article__img:nth-of-type(1) {
+  margin: 100px auto 15px;
+}
+
+.article__img:nth-of-type(5) {
+  margin: 60px auto 0;
+}
+
+.article__img:nth-of-type(6) {
+  margin: 69px auto 9px;
+}
+
+.article__link {
+  color: #6699ff;
+}
+
+.article__caption {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+/*# sourceMappingURL=style.css.map */
