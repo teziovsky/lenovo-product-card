@@ -18,10 +18,6 @@
 * Github: [@teziovsky](https://github.com/teziovsky)
 * LinkedIn: [@jakubsoboczynski](https://linkedin.com/in/jakubsoboczynski)
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/teziovsky/product_card/issues). 
-
 ## Show your support
 
 Give a ⭐️ if this project helped you!
