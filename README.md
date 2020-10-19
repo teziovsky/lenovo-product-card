@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> The product card website created for the needs of recruitment to Junior Frontend Developer.
+> The Lenovo product card website created for the needs of recruitment to Junior Frontend Developer. PSD to HTML using HTML5, CSS3/SASS and RWD.
 
 ### ✨ [Demo](https://teziovsky.github.io/product_card/)
 
