@@ -4,16 +4,16 @@
 }
 
 $primary-text-colour: #000000;
-$secondary-text-colour: #ffffff;
+$secondary-text-colour: #FFFFFF;
 $caption-text-colour: #979797;
-$background-text-colour: #408ddc;
+$background-text-colour: #408DDC;
 
 *,
 *::before,
 *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 img {
@@ -22,24 +22,24 @@ img {
 }
 
 body {
-  width: 1920px;
   font-size: 10px;
+  width: 1920px;
 }
 
 .header {
-  background-color: $background-text-colour;
   position: relative;
-  color: $secondary-text-colour;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: $secondary-text-colour;
+  background-color: $background-text-colour;
 
   &__logo {
     position: absolute;
-    width: 80px;
-    height: 240px;
     top: 0;
     left: 0;
+    width: 80px;
+    height: 240px;
   }
 
   &__wrapper {
@@ -50,7 +50,7 @@ body {
   }
 
   &__info {
-    font-family: Gotham;
+    font-family: Gotham, sans-serif;
     font-weight: 300;
 
     &--title {
@@ -65,6 +65,7 @@ body {
       margin-bottom: 30px;
       letter-spacing: 4px;
     }
+
     &--description {
       font-size: 1.6em;
       line-height: 1.625em;
@@ -79,12 +80,12 @@ body {
 }
 
 .wrapper {
-  max-width: 68.75%;
-  margin: 0 auto;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   display: flex;
   flex-direction: column;
+  max-width: 68.75%;
+  margin: 0 auto;
 }
 
 .article {
@@ -94,8 +95,8 @@ body {
 
   &__subtitle {
     font-size: 5em;
-    margin: 40px 0 20px;
     font-weight: 300;
+    margin: 40px 0 20px;
   }
 
   &__description {
@@ -104,9 +105,9 @@ body {
   }
 
   &__img {
+    align-items: center;
     width: calc(1920 - 68.75%);
     height: auto;
-    align-items: center;
     margin: 66px auto 50px;
 
     &:nth-of-type(1) {
@@ -127,9 +128,9 @@ body {
   }
 
   &__table {
+    font-size: 2em;
     display: grid;
     grid-template-columns: 3fr 9fr;
-    font-size: 2em;
 
     &__item {
       padding: 10px 4px;
@@ -142,31 +143,31 @@ body {
     }
 
     & small {
+      font-size: 0.8em;
       display: block;
       margin: 5px 0;
-      font-size: 0.8em;
     }
   }
 
   .caption {
+    font-size: 2em;
     margin-top: 20px;
     text-align: right;
-    font-size: 2em;
     color: $caption-text-colour;
   }
 
   &__caption {
-    margin-left: 20px;
     font-size: 2em;
     line-height: 1.5em;
+    margin-left: 20px;
   }
 }
 
 @media all and (max-width: 1440px) {
   body {
+    font-size: 7.5px;
     width: 1440px;
     max-width: 100%;
-    font-size: 7.5px;
   }
 
   .header {
@@ -200,9 +201,9 @@ body {
 
 @media all and (max-width: 1280px) {
   body {
+    font-size: 6.7px;
     width: 1280px;
     max-width: 100%;
-    font-size: 6.7px;
   }
 
   .header {
@@ -232,16 +233,16 @@ body {
 
 @media all and (max-width: 1024px) {
   body {
+    font-size: 5.3px;
     width: 1024px;
     max-width: 100%;
-    font-size: 5.3px;
   }
 
   .header {
     &__wrapper {
+      flex-direction: column;
       width: 60vw;
       max-width: 365px;
-      flex-direction: column;
       row-gap: 20px;
     }
 
