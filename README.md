@@ -8,8 +8,6 @@
 
 > The Lenovo product card website created for the needs of recruitment to Junior Frontend Developer. PSD to HTML using HTML5, CSS3/SASS and RWD.
 
-### ✨ [Demo](https://github.com/teziovsky/lenovo-product-card)
-
 ## Author
 
 👤 **Jakub Soboczyński**
