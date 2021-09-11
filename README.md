@@ -1,16 +1,29 @@
-<h1 align="center">Welcome to Lenovo product card 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/teziovsky/lenovo-product-card#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-</p>
+# Hey it's lenovo-product-card! 🤝
 
 > The Lenovo product card website created for the needs of recruitment to Junior Frontend Developer. PSD to HTML using HTML5, CSS3/SASS and RWD.
 
-## Author
+## [Demo](https://lenovo-product-card.pl)
 
-👤 **Jakub Soboczyński**
+## Run locally
 
-* Website: https://jakubsoboczynski.pl/
-* LinkedIn: [@jakubsoboczynski](https://linkedin.com/in/jakubsoboczynski)
+Clone the project and go to the project directory
+
+```bash
+git clone https://github.com/teziovsky/lenovo-product-card.git && cd lenovo-product-card
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the server
+
+```bash
+npm run serve
+```
+
+## Contact
+
+If you have any suggestions, please [send me an email here](mailto:kontakt@jakubsoboczynski.pl) 🔥
