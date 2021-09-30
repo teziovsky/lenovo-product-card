@@ -1,6 +1,6 @@
 # Hey it's lenovo-product-card! 🤝
 
-> The Lenovo product card website created for the needs of recruitment to Junior Frontend Developer. PSD to HTML using HTML5, CSS3/SASS and RWD.
+> Lenovo product landing page. It was created for the purpose of recruiting for the position of Frontend Developer.
 
 ## [Demo](https://lenovo-product-card.pl)
 
