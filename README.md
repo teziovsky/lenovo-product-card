@@ -1,29 +1,25 @@
-# Hey it's lenovo-product-card! 🤝
+# Hey it's lenovo-product-card! 🖖🏼
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/teziovsky?style=social)](https://www.twitter.com/teziovsky)
 
 > Lenovo product landing page. It was created for the purpose of recruiting for the position of Frontend Developer.
 
-## [Demo](https://lenovo-product-card.pl)
+## Demo 👀
 
-## Run locally
+#### [🏠 Link to demo here!](https://teziovsky.github.io/lenovo-product-card/)
 
-Clone the project and go to the project directory
+## Get started 🏁
 
-```bash
-git clone https://github.com/teziovsky/lenovo-product-card.git && cd lenovo-product-card
-```
+Just open `index.html` in your browser!
 
-Install dependencies
+## Author 🙎🏼‍
 
-```bash
-npm install
-```
+#### [@teziovsky](https://www.github.com/teziovsky)
 
-Start the server
+## Contact ☎️
 
-```bash
-npm run serve
-```
+If you have any suggestions, please [email me here](mailto:jakub.soboczynski@icloud.com)! 🔥
 
-## Contact
+---
 
-If you have any suggestions, please [send me an email here](mailto:jakub.soboczynski@icloud.com) 🔥
+README created with ❤️ by [md-generate](https://www.npmjs.com/package/md-generate)
