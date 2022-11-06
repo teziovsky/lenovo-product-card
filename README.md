@@ -2,7 +2,7 @@
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/teziovsky?style=social)](https://www.twitter.com/teziovsky)
 
-> Lenovo product landing page. It was created for the purpose of recruiting for the position of Frontend Developer.
+> Lenovo product landing page.
 
 ## Demo 👀
 
